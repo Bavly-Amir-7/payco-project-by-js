@@ -48,15 +48,15 @@ const Login = () => {
         <div className="w-1/2 bg-gray-100 flex flex-col justify-center items-center">
           <div className="w-3/4">
             <div className="text-center mb-8">
-            <div className="word flex flex-row items-center">
-  <Image
-    src="/images/payco.png"
-    width={270} // تأكد من أن هذا هو العرض الفعلي للصورة
-    height={95}  // تأكد من أن هذا هو الارتفاع الفعلي للصورة
-    priority
-    alt="Description of the image"
-  />
-</div>
+              <div className="word flex flex-row items-center">
+                <Image
+                  src="/images/payco.png"
+                  width={270} // تأكد من أن هذا هو العرض الفعلي للصورة
+                  height={95}  // تأكد من أن هذا هو الارتفاع الفعلي للصورة
+                  priority
+                  alt="Description of the image"
+                />
+              </div>
 
               <h1 className="text-2xl font-bold text-start mt-5">Welcome Back</h1>
             </div>
