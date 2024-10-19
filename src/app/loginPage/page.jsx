@@ -38,10 +38,9 @@ const Login = () => {
             alt="Illustration of security and payment elements"
             className="w-3/4"
             src="/images/computer.png"
-            priority // أضف هذه السطر
-
-            width={500} // specify your desired width here
-            height={300} // specify your desired height here
+            priority 
+            width={500}
+            height={300} 
           />
 
         </div>
@@ -51,8 +50,8 @@ const Login = () => {
               <div className="word flex flex-row items-center">
                 <Image
                   src="/images/payco.png"
-                  width={270} // تأكد من أن هذا هو العرض الفعلي للصورة
-                  height={95}  // تأكد من أن هذا هو الارتفاع الفعلي للصورة
+                  width={270} 
+                  height={95} 
                   priority
                   alt="Description of the image"
                 />
