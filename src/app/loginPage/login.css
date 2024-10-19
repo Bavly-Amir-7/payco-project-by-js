@@ -3,3 +3,9 @@
     justify-content: center;
     gap: 10px;
 }
+
+.word img {
+    width: auto;  
+    height: auto; 
+  }
+  
