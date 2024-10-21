@@ -96,6 +96,22 @@ input[type="email"]::placeholder, input[type="password"]::placeholder {
     gap: 7px;
 }
 
+
+    /* Custom scrollbar styles */
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #e3342f;
+        border-radius: 10px;
+        border: 3px solid #f1f1f1;
+    }
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .computer {

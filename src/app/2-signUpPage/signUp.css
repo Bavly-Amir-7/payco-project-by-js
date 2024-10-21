@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.googleSearch {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* Styles for the body and main container */
+.loginBody {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Full height for the background */
+.bg-gray-100 {
+    background-color: #f7fafc;
+    /* light gray */
+    min-height: 100vh;
+}
+
+/* Flexbox layout for the login area */
+.loginArea {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping on smaller screens */
+}
+
+/* Styles for the computer illustration */
+.computer {
+    flex: 1;
+    /* Takes half the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer img {
+    max-width: 100%;
+    /* Makes the image responsive */
+    height: auto;
+    /* Keeps aspect ratio */
+}
+
+/* Styles for the login form area */
+.imageParent {
+    flex: 1;
+    /* Takes half the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageChild img {
+    width: 250px;
+    height: 95px;
+    /* Keeps the aspect ratio when the width is set */
+}
+
+
+/* Responsive typography */
+h1 {
+    font-size: 2rem;
+    /* Default size */
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Form styles */
+input {
+    width: 100%;
+    /* Makes inputs full width */
+    padding: 0.5rem;
+    /* Adds padding */
+    border: 1px solid #ccc;
+    /* Default border */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: black; /* Black placeholder text */
+  }
+
+.lines{
+    gap: 7px;
+}
+
+
+    /* Custom scrollbar styles */
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #e3342f;
+        border-radius: 10px;
+        border: 3px solid #f1f1f1;
+    }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .computer {
+        display: none;
+        /* Hide the computer image on small screens */
+    }
+
+    .imageParent {
+        flex: 1 1 100%;
+        /* Takes full width on small screens */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        /* Adjust heading size */
+    }
+
+    .imageChild {
+        width: 90%;
+        /* Makes form take more space on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.25rem;
+        /* Further adjust heading size */
+    }
+
+    input {
+        font-size: 0.875rem;
+        /* Smaller input text */
+    }
+
+    .lines svg{
+        display: none;
+    }
+  
+}

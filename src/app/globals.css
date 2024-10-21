@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.redBtn {
+    width: 220px; /* Fixed width */
+    height: 64px; /* Fixed height */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 40px;
+    background:  #C20101;
+}
+
+.bold{
+    font-weight: bold;
+}
